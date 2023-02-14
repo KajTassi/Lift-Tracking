@@ -4,6 +4,7 @@ const cors = require("cors");
 const pool = require("./db");
 
 //Important, use "nodemon index" to launch this
+//use npx create-react-app to start a new application
 
 //middeleware
 app.use(cors());
