@@ -36,6 +36,7 @@ const ListTodos = () => {
 
   console.log(todos);
 
+  //table class taken from bootsrap 4, table
   return (
     <Fragment>
       {" "}
