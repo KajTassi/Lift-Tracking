@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 
-const InputTodo = () => {
+const InputTodoTwo = () => {
     //this is the active state, and allows you to change the state
   const [description, setDescription] = useState("");
 
@@ -22,8 +22,7 @@ const InputTodo = () => {
 
   return (
     <Fragment>
-      <h1 className="text-center mt-5">Personal Best</h1>
-      <h2 className="text-center mt-5">Shay's section for tracking lifting progress</h2>
+      <h2 className="text-center mt-5">Sam's section for tracking lifting progress</h2>
       <form className="d-flex mt-5" onSubmit={onSubmitForm}>
         <input
           type="text"
@@ -37,4 +36,4 @@ const InputTodo = () => {
   );
 };
 
-export default InputTodo;
+export default InputTodoTwo;

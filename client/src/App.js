@@ -4,7 +4,10 @@ import "./App.css";
 //components
 
 import InputTodo from "./components/InputTodo";
+import InputTodoTwo from "./components/InputTodo2";
 import ListTodos from "./components/ListTodos";
+import ListTodosTwo from "./components/ListTodos2";
+
 
 function App() {
   return (
@@ -12,6 +15,11 @@ function App() {
       <div className="container">
         <InputTodo />
         <ListTodos />
+      </div>
+      <hr class="featurette-divider"></hr>
+      <div className="container">
+        <InputTodoTwo />
+        <ListTodosTwo />
       </div>
     </Fragment>
   );
