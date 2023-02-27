@@ -22,8 +22,8 @@ const InputTodo = () => {
 
   return (
     <Fragment>
-      <h1 className="text-center mt-5">Personal Best</h1>
-      <h2 className="text-center mt-5">Shay's section for tracking lifting progress</h2>
+      <h1 className="text-center mt-5">Pumping Iron</h1>
+      <h2 className="text-center mt-5">Weight Lifting Tracker App</h2>
       <form className="d-flex mt-5" onSubmit={onSubmitForm}>
         <input
           type="text"

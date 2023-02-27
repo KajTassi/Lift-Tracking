@@ -17,10 +17,6 @@ function App() {
         <ListTodos />
       </div>
       <hr class="featurette-divider"></hr>
-      <div className="container">
-        <InputTodoTwo />
-        <ListTodosTwo />
-      </div>
     </Fragment>
   );
 }
