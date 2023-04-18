@@ -22,8 +22,12 @@ const InputTodo = () => {
 
   return (
     <Fragment>
+    <div className="text-center">
+    <img src="images/weight.jpg" class="img-fluid rounded b-shadow-a" width="500px" alt="" />
       <h1 className="text-center mt-5">Pumping Iron</h1>
       <h2 className="text-center mt-5">Weight Lifting Tracker App</h2>
+    </div>
+
       <form className="d-flex mt-5" onSubmit={onSubmitForm}>
         <input
           type="text"
